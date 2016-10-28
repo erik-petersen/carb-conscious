@@ -1,0 +1,8 @@
+<main ng-app="myApp" ng-controller="ControllerSignup">
+  <form class="input-group" ng-submit="submitForm()">
+    <label>Please enter your email and a password of your choosing</label>
+    <input type="text" class="form-control" placeholder="email" aria-describedby="sizing-addon2" ng-model="customerEmail" focus="true">
+    <input type="text" class="form-control" placeholder="password" aria-describedby="sizing-addon2" ng-model="customerPassword">
+    <a href="#/home"><input type="submit" class="form-control" value="Submit" aria-describedby="sizing=addon2"></a>
+  </form>
+</main>
