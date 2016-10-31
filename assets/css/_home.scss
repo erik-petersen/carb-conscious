@@ -1,0 +1,30 @@
+.main-home {
+
+  .li-no-underline,
+  .list-group-item {
+    text-decoration: none;
+    border: none;
+  }
+
+  .list-group {
+    font-family: $font-main-menu;
+    font-size: 3em;
+    margin-right: .65em;
+    border-radius: 4px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+
+    a {
+      text-decoration: none;
+      color: #15659b;
+    }
+
+    a:hover {
+      cursor: pointer;
+    }
+  }
+
+
+
+
+} // end .main-home
