@@ -9,6 +9,27 @@ myApp.config( function( $routeProvider ) {
     templateUrl: "pages/signup.html",
     controller: "ControllerSignup"
   })
+  .when( "/activity", {
+    templateUrl: "pages/activity.html"
+  })
+  .when( "/blood-sugar", {
+    templateUrl: "pages/blood-sugar.html"
+  })
+  .when( "/food", {
+    templateUrl: "pages/food.html"
+  })
+  .when( "/groceries", {
+    templateUrl: "pages/groceries.html"
+  })
+  .when( "/symptoms", {
+    templateUrl: "pages/symptoms.html"
+  })
+  .when( "/water", {
+    templateUrl: "pages/water"
+  })
+  .when( "/weight", {
+    templateUrl: "pages/weight.html"
+  })
   .otherwise({
     redirectTo: "/home"
   });
