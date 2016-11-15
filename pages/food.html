@@ -1,0 +1,35 @@
+<!-- Fields to include
+Food name
+Breakfast, Lunch, Dinner, Snack, Dessert
+Sugar grams
+Source of sugar
+Serving size
+If high glycemic, include field "Was it worth it?"
+Fat grams
+Saturated, unsaturated, trans-fat grams -->
+
+<main class="main-food" ng-app="myApp">
+  <div class="input-group input-group-lg">
+    <span class="input-group-addon" id="sizing-addon1">Food/Meal Name</span>
+    <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="input-group">
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Breakfast<span class="caret"></span></button>
+          <ul class="dropdown-menu">
+            <li>Breakfast</li>
+            <li>Brunch</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+            <li>Dessert</li>
+            <li>Snack</li>
+          </ul>
+        </div><!-- /btn-group -->
+        <input type="text" class="form-control" aria-label="...">
+      </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+  </div><!-- /.row -->
+</main>
