@@ -16,7 +16,8 @@ myApp.config( function( $routeProvider ) {
     templateUrl: "pages/blood-sugar.html"
   })
   .when( "/food", {
-    templateUrl: "pages/food.html"
+    templateUrl: "pages/food.html",
+    controller: "ControllerFood"
   })
   .when( "/groceries", {
     templateUrl: "pages/groceries.html"
